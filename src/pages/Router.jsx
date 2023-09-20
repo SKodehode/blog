@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from "./Home";
 import Catalog from './Catalog';
 import Post from './Post';
+import ErrorPage from './Error';
 
 /**
  * AppRouter is a function responsible for rendering this website's pages.
@@ -11,8 +12,6 @@ import Post from './Post';
 function AppRouter() {
     return(
         <>
-        {/* Router aka BrowserRouter is a component that provides a routing context for this entire site. */}
-        <Router>
             {/* Routes is a sub component in routing below BrowserRouter that is used to define our different routes. */}
             <Routes>
                 {/* The Route components are used to create a page by defining it's url path in the path property and which elements this page should load in the element property. */}
@@ -23,8 +22,8 @@ function AppRouter() {
                 {/* Post/:id is responsible for rendering a blog post's contents. It is one page rendering one post at a time depending on which link the user clicks on. */}
                 {/* Each post has a unique link generated with own id based off of the id property in the post object array. */}
                 <Route path="/post/:id" element={<Post/>}/>
-            </Routes>
-        </Router>
+                <Route path="*" element={<ErrorPage/>}/>
+            </Routes> 
         </>
     )
 }
