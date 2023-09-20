@@ -1,4 +1,6 @@
 import "../styles/BlogPostCard.css"
+import { Link } from "react-router-dom";
+import { data } from "../data/data";
 
 /**
  * BlogPostCard.jsx is a general component that we use to display the contents from our object arrays in a card format. 
@@ -14,6 +16,7 @@ function BlogPostCard({ posts }) {
           <h2 className="post-title">{post.title}</h2>
           <p className="post-content">{post.description}</p>
           <p className="post-timestamp">{post.timestamp}</p>
+          <Link to={`/post/${post.id}`}>Read More</Link>
         </div>
       ))}
     </div>

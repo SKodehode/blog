@@ -2,7 +2,7 @@ import { useRouteError } from "react-router-dom";
 import "../styles/Error.css"
 import LayoutBase from "../components/layout/LayoutBase";
 
-export default function ErrorPage() {
+function ErrorPage() {
   const error = useRouteError();
   console.error(error);
 
@@ -17,3 +17,5 @@ export default function ErrorPage() {
     </LayoutBase>
   );
 }
+
+export default ErrorPage;
