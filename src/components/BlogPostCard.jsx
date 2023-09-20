@@ -1,6 +1,5 @@
 import "../styles/BlogPostCard.css"
 import { Link } from "react-router-dom";
-import { data } from "../data/data";
 
 /**
  * BlogPostCard.jsx is a general component that we use to display the contents from our object arrays in a card format. 

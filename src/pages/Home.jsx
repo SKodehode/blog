@@ -1,13 +1,13 @@
 import "../styles/Home.css"
 import LayoutBase from "../components/layout/LayoutBase";
-import BlogPostList from "../components/BlogPostList";
+import BlogPostLatest from "../components/BlogPostLatest";
 import { data } from "../data/data";
 
 function Home() {
     return(
         <LayoutBase>
             <h1>Welcome home!</h1>
-            <BlogPostList posts={data}/>
+            <BlogPostLatest posts={data}/>
         </LayoutBase>
     );
 }
