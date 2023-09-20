@@ -1,3 +1,10 @@
+import "../styles/BlogPostCard.css"
+
+/**
+ * BlogPostCard.jsx is a general component that we use to display the contents from our object arrays in a card format. 
+ * This component is used by the catalog page to display each post as a card with limited information from the post object by refering to it's description property instead of it's content property.
+ */
+
 function BlogPostCard({ posts }) {
   return (
     <div>

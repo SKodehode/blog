@@ -1,3 +1,11 @@
+import "../styles/BlogPostList.css"
+
+/**
+ * BlogPostList is a general component that is used to display posts from our data array in a list format.
+ * It is used to display all the posts in a object array in a list format, at the moment this component is used on the homepage. 
+ * This component uses the content property from the object array to display each post's full text.
+ */
+
 function BlogPostList({ posts }) {
   return (
     <div>
