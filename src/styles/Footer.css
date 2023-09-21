@@ -1,4 +1,11 @@
 footer {
-    height: 5rem;
+    height: 1.5rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-notice {
+    font-size: 0.8rem;
 }

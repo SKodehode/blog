@@ -4,7 +4,7 @@ function Footer() {
     return(
         <>
             <footer>
-                <p>This is a footer</p>
+                <p className="copyright-notice">This is a footer</p>
             </footer>
         </>
     );

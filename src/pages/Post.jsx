@@ -1,6 +1,7 @@
 import LayoutBase from "../components/layout/LayoutBase";
 import { useParams } from "react-router-dom";
 import { data } from "../data/data";
+import "../styles/Post.css"
 
 function Post() {
   const { id } = useParams();
@@ -19,7 +20,7 @@ function Post() {
 
   return (
     <LayoutBase>
-      <div className="post-card" key={post.id}>
+      <div className="post-wrapper" key={post.id}>
         <img className="post-image" src={post.image} alt={post.title} />
         <h2 className="post-title">{post.title}</h2>
         <p className="post-content">{post.content}</p>

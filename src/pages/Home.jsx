@@ -6,8 +6,10 @@ import { data } from "../data/data";
 function Home() {
     return(
         <LayoutBase>
-            <h1>Welcome home!</h1>
-            <BlogPostLatest posts={data}/>
+            <div className="home-wrapper">
+                <h1>My Blog</h1>
+                <BlogPostLatest posts={data}/>
+            </div>
         </LayoutBase>
     );
 }

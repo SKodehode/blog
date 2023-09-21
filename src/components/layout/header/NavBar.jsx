@@ -4,9 +4,9 @@ function NavBar() {
     return(
         <>
             <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/catalog">Catalog</Link></li>
+                <ul className="nav-links">
+                    <li className="nav-item"><Link to="/">Home</Link></li>
+                    <li className="nav-item"><Link to="/catalog">Catalog</Link></li>
                 </ul>
             </nav>
         </>

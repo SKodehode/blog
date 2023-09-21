@@ -8,17 +8,17 @@ import { Link } from "react-router-dom";
 
 function BlogPostCard({ posts }) {
   return (
-    <div>
+    <>
       {posts.map((post) => (
-        <div className="post-card" key={post.id}>
-          <img className="post-image" src={post.image} alt={post.title} />
-          <h2 className="post-title">{post.title}</h2>
-          <p className="post-content">{post.description}</p>
-          <p className="post-timestamp">{post.timestamp}</p>
+        <div className="Card" key={post.id}>
+          <img className="card-image" src={post.image} alt={post.title} />
+          <h2 className="card-title">{post.title}</h2>
+          <p className="card-content">{post.description}</p>
+          <p className="card-timestamp">{post.timestamp}</p>
           <Link to={`/post/${post.id}`}>Read More</Link>
         </div>
       ))}
-    </div>
+    </>
   );
 }
 

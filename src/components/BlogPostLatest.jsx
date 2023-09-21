@@ -12,11 +12,11 @@ function BlogPostLatest({ posts }) {
      return null;
   }
   return (
-        <div className="post-card" key={post.id}>
-          <img className="post-image" src={post.image} alt={post.title} />
-          <h2 className="post-title">{post.title}</h2>
-          <p className="post-content">{post.content}</p>
-          <p className="post-timestamp">{post.timestamp}</p>
+        <div className="latest-wrapper" key={post.id}>
+          <img className="latest-image" src={post.image} alt={post.title} />
+          <h2 className="latest-title">{post.title}</h2>
+          <p className="latest-content">{post.content}</p>
+          <p className="latest-timestamp">{post.timestamp}</p>
         </div>
       )}
 

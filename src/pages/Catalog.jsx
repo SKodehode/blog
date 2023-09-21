@@ -5,7 +5,6 @@ import { data } from "../data/data";
 
 function Catalog() {
     return(
-
             <LayoutBase>
                 <BlogPostCard posts={data} />
             </LayoutBase>

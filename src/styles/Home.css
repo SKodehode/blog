@@ -1,4 +1,25 @@
-main {
+ .home-wrapper {
     min-height: 100%;
     width: 100%;
+    padding: 0rem 15rem;
+    margin-top: 0.5rem;
+}
+
+.latest-image {
+    height: 75%;
+    width: auto;
+    padding: 1rem;
+}
+
+.latest-title {
+    padding: 1rem;
+}
+
+.latest-content {
+    padding: 1rem;
+}
+
+.latest-timestamp {
+    padding: 1rem;
+    font-size: 0.7rem;
 }

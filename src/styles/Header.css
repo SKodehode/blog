@@ -1,0 +1,27 @@
+header {
+    min-height: 2rem;
+    width: 100%;
+    box-shadow: 0rem 0.1rem 0.2rem rgb(0,0,0,0.25);
+    padding: 0.5rem 0rem;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
