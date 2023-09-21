@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom';
 import Home from "./Home";
 import Catalog from './Catalog';
 import Post from './Post';
-import ErrorPage from './Error';
 
 /**
  * AppRouter is a function responsible for rendering this website's pages.
@@ -22,8 +21,7 @@ function AppRouter() {
                 {/* Post/:id is responsible for rendering a blog post's contents. It is one page rendering one post at a time depending on which link the user clicks on. */}
                 {/* Each post has a unique link generated with own id based off of the id property in the post object array. */}
                 <Route path="/post/:id" element={<Post/>}/>
-                <Route path="*" element={<ErrorPage/>}/>
-            </Routes> 
+            </Routes>
         </>
     )
 }

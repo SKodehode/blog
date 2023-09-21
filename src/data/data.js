@@ -1,3 +1,5 @@
+/* This is the data array that contains the blog post's information. And as it is updated so will the information on the website be updated. */
+
 export const data = [
     
     /* City life */

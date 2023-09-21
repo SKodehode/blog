@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+/* This is the navbar component used to display a link to the homepage and the blogpost catalog. */
+
 function NavBar() {
     return(
         <>

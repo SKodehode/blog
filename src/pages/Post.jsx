@@ -3,6 +3,9 @@ import { useParams } from "react-router-dom";
 import { data } from "../data/data";
 import "../styles/Post.css"
 
+/* This page is responsible for rendering each individual array object as a page using the useParams hook. */
+/* Each pose in the catalog has it's own link that leads to that specific object in the array. */
+
 function Post() {
   const { id } = useParams();
   const postId = parseInt(id);
