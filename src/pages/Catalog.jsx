@@ -1,4 +1,4 @@
-import "../styles/Blog.css"
+import "../styles/Catalog.css"
 import LayoutBase from "../components/layout/LayoutBase";
 import BlogPostCard from "../components/BlogPostCard";
 import { data } from "../data/data";
@@ -6,7 +6,9 @@ import { data } from "../data/data";
 function Catalog() {
     return(
             <LayoutBase>
-                <BlogPostCard posts={data} />
+                <div className="catalog-wrapper">
+                    <BlogPostCard posts={data} />
+                </div>
             </LayoutBase>
     );
 }

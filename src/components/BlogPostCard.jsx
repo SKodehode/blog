@@ -15,7 +15,7 @@ function BlogPostCard({ posts }) {
           <h2 className="card-title">{post.title}</h2>
           <p className="card-content">{post.description}</p>
           <p className="card-timestamp">{post.timestamp}</p>
-          <Link to={`/post/${post.id}`}>Read More</Link>
+          <Link className="card-link" to={`/post/${post.id}`}>Read More</Link>
         </div>
       ))}
     </>

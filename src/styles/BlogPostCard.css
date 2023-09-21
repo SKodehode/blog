@@ -1,0 +1,28 @@
+.Card {
+    padding: 0rem 3rem 2rem 3rem;
+}
+
+.card-image {
+    max-height: 25rem;
+    width: 25rem;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+
+.card-content {
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.card-timestamp {
+    font-size: 0.7rem;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.card-link {
+    padding: 1rem;
+    font-size: 0.9rem;
+}
