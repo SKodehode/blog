@@ -1,0 +1,26 @@
+.latest-wrapper {
+    margin: 5rem 0rem;
+}
+
+.latest-image {
+    height: auto;
+    width: 60rem;
+    object-fit: contain;
+}
+
+.latest-title {
+    font-size: 4rem;
+    padding: 2rem 5rem;
+}
+
+.latest-content {
+    font-size: 1.5rem;
+    padding: 2rem 5rem;
+    text-align: start;
+    margin-bottom: 5rem;
+}
+
+.latest-timestamp {
+    font-size: 0.7rem;
+    padding: 1rem;
+}

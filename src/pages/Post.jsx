@@ -11,8 +11,8 @@ function Post() {
   if (!post) {
     return (
       <LayoutBase>
-        <div className="error-message">
-          <p>Sorry, the requested post does not exist.</p>
+        <div className="error-container">
+          <p className="error-message">Sorry, the requested post does not exist.</p>
         </div>
       </LayoutBase>
     );
@@ -24,7 +24,7 @@ function Post() {
         <img className="post-image" src={post.image} alt={post.title} />
         <h2 className="post-title">{post.title}</h2>
         <p className="post-content">{post.content}</p>
-        <p className="post-timestamp">{post.timestamp}</p>
+        <p className="post-timestamp">Posted {post.timestamp}</p>
       </div>
     </LayoutBase>
   );

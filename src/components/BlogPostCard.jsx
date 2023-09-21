@@ -14,7 +14,7 @@ function BlogPostCard({ posts }) {
           <img className="card-image" src={post.image} alt={post.title} />
           <h2 className="card-title">{post.title}</h2>
           <p className="card-content">{post.description}</p>
-          <p className="card-timestamp">{post.timestamp}</p>
+          <p className="card-timestamp">Posted  {post.timestamp}</p>
           <Link className="card-link" to={`/post/${post.id}`}>Read More</Link>
         </div>
       ))}
