@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+/* Styles for the general element as well as for the root container. */
+
 *{
   box-sizing: border-box;
   margin: 0;

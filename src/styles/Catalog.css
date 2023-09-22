@@ -1,3 +1,5 @@
+/* Stylings for the catalog page. */
+
 .catalog-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
