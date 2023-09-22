@@ -1,8 +1,10 @@
-# React + Vite
+# Blog Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the repository for a project where I was tasked with creating a static Blog website.
 
-Currently, two official plugins are available:
+We were tasked with using what we had learned in the 4 weeks we spent learning about React and Vite. 
+So for this project I made use of useState(), useEffect(), React Router, the useParams hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The contents found on this blog is from an object array I had made by ChatGPT with images from unsplashed.com
+
+![Image displaying a preview of this project's front page where visitors are met with a banner image, the title of this blog and a welcome message.](public/images/page_preview.png)
